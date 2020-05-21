@@ -1,0 +1,7 @@
+如果要抓取网页网址的话，直接把text()改成@href就行了，针对于xpath
+1.利用json.loads和正则匹配可以直接抓HTML里面的内容
+2.效果和data = response.content.decode('unicode-escape', 'ignore').encode('utf-8', 'ignore').decode('utf-8')然后整体抓是一样的
+只是方法2是对所有数据直接解码，
+方法1使用json格式处理，里面的数据会被自动解码
+
+同时data.replace('\\/', '/')#将\/转换成/这个也要注意一下

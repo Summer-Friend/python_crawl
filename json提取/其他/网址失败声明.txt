@@ -1,0 +1,6 @@
+参考：
+https://blog.csdn.net/lvbu89757/article/details/96158701
+https://blog.csdn.net/weixin_36604953/article/details/78592943?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+这两个网好像要登录，所以爬不下来
+在动态网页中，看的是JS和XHR中的内容，首先要先打印一下返回的内容看看是不是想要的json格式，
+有可能返回登录信息，这个时候就可能需要selenium进行登录操作

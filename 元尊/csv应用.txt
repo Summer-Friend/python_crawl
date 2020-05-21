@@ -1,0 +1,1 @@
+csv的a+性质表示追加，这个和pandas的to_csv的mode='a'是一样的道理

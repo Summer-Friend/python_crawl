@@ -1,0 +1,5 @@
+https://www.cnblogs.com/loveprogramme/p/9379532.html
+以后在使用json时，最好先输出一下参数，检查一下是否符合格式，这样就能减少错误，当然也可能有别的原因。
+同时参考：https://blog.csdn.net/qq_34696236/article/details/80511940
+里面的程序用到了response.text[26:-2],,,这一步就是为了提取出正确的json格式数据
+以后在json.loads(content)之前最好先print(content)看看这个content是不是标准的json格式

@@ -1,0 +1,5 @@
+网页抓取分为动态和静态
+动态采取json
+静态采取re，bs4，正则
+参考：
+https://blog.csdn.net/ITBigGod/article/details/103123683

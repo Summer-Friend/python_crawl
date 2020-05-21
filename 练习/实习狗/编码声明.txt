@@ -1,0 +1,6 @@
+编码问题解决：
+response.encoding = response.apparent_encoding	#只要加上这行代码就可以完美解决这个问题。自动判断编码问题
+
+同时B站弹幕也会出现类似问题
+#这里，，不知道为啥要这样，可能是网页的编码方式不同
+content=response.content.decode('utf-8')
